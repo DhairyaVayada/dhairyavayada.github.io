@@ -15,7 +15,16 @@
   -webkit-text-size-adjust: 100%;
    background-color: #fafafa;
 }
-
+@media screen and (max-width: 1020px) {
+  #container, #header, #content, #footer {
+    float: none;
+    width: auto;
+  }
+ #subtitle, #share, #slider, #sidebar{
+    display:none;
+  }
+  p{ font-size: 2em; }
+}
 .main {
   position: absolute;
   width: 530px;
